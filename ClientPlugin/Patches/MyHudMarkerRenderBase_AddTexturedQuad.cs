@@ -1,12 +1,5 @@
 ﻿using HarmonyLib;
-using Sandbox.Game.Gui;
-using Sandbox.Game.GUI.HudViewers;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
 using VRage.Game.Gui;
 using VRageMath;
 
@@ -36,7 +29,5 @@ namespace ClientPlugin.Patches
 
             return true;
         }
-
-        
     }
 }

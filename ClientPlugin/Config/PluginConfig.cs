@@ -30,15 +30,12 @@ namespace ClientPlugin.Config
         }
 
         private float scale = 1f;
-        // TODO: Implement your config fields
 
         public float Scale
         {
             get => scale;
             set =>SetValue(ref scale, value);
         }
-
-        // TODO: Encapsulate them as properties
     }
 }
 

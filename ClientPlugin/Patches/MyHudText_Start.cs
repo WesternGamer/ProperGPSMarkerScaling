@@ -12,9 +12,6 @@ namespace ClientPlugin.Patches
     [HarmonyPatch(typeof(MyHudText), nameof(MyHudText.Start))]
     internal static class MyHudText_Start
     {
-        private const int NormalScreenSizeY = 1080;
-        private const int DebugSimulatedScreenSizeY = 2160;
-
         private static bool Prefix(ref float scale)
         {
             scale *= Plugin.Instance.Config.Scale;
