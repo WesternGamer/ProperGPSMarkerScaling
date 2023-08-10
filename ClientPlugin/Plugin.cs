@@ -19,7 +19,7 @@ namespace ClientPlugin
     {
         public const string Name = "GpsMarkerScaling";
         public static Plugin Instance { get; private set; }
-        private static float desiredScale = 1;
+        private float desiredScale = 1;
 
         public IPluginConfig Config => config?.Data;
         private PersistentConfig<PluginConfig> config;
@@ -39,6 +39,8 @@ namespace ClientPlugin
             var configPath = Path.Combine(MyFileSystem.UserDataPath, "Storage\\PluginData", ConfigFileName);
             config = PersistentConfig<PluginConfig>.Load(configPath);
 
+            desiredScale = Config.Scale;
+
             Harmony harmony = new Harmony(Name);
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
@@ -57,7 +59,7 @@ namespace ClientPlugin
                 if (MyInput.Static.IsKeyPress(MyKeys.Alt) && MyInput.Static.IsKeyPress(MyKeys.Shift))
                 {
                     float delta = MyInput.Static.DeltaMouseScrollWheelValue();
-                    if (delta != 0)
+                    if (MyInput.Static.IsKeyPress(MyKeys.Alt) && MyInput.Static.IsKeyPress(MyKeys.Shift) && delta != 0)
                     {
                         desiredScale = MathHelper.Clamp(desiredScale - MathHelper.ToRadians(delta / 100f), 0.018f, 2.5f);
                         MyAPIGateway.Utilities.ShowNotification("Scale: " + Math.Round(currScale, 1), 20);
