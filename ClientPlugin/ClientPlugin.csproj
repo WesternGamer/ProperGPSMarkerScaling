@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=2.2.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Lib.Harmony.2.2.2\lib\net48\0Harmony.dll</HintPath>
-    </Reference>
     <Reference Include="DirectShowLib, Version=2.1.0.1599, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\Bin64\DirectShowLib.dll</HintPath>
     </Reference>
@@ -85,13 +82,13 @@
       <HintPath>..\Bin64\Sandbox.Common.dll</HintPath>
     </Reference>
     <Reference Include="Sandbox.Game, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\Sandbox.Game.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\Sandbox.Game.dll</HintPath>
     </Reference>
     <Reference Include="Sandbox.Game.XmlSerializers, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\Bin64\Sandbox.Game.XmlSerializers.dll</HintPath>
     </Reference>
     <Reference Include="Sandbox.Graphics, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\Sandbox.Graphics.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\Sandbox.Graphics.dll</HintPath>
     </Reference>
     <Reference Include="Sandbox.RenderDirect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\Bin64\Sandbox.RenderDirect.dll</HintPath>
@@ -127,7 +124,7 @@
       <HintPath>..\Bin64\SixLabors.ImageSharp.dll</HintPath>
     </Reference>
     <Reference Include="SpaceEngineers.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\SpaceEngineers.Game.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\SpaceEngineers.Game.dll</HintPath>
     </Reference>
     <Reference Include="SpaceEngineers.ObjectBuilders, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\Bin64\SpaceEngineers.ObjectBuilders.dll</HintPath>
@@ -418,7 +415,7 @@
       <HintPath>..\Bin64\System.Threading.Tasks.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-      <HintPath>..\Bin64\System.Threading.Tasks.Extensions.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Tasks.Parallel, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <HintPath>..\Bin64\System.Threading.Tasks.Parallel.dll</HintPath>
@@ -456,67 +453,67 @@
       <HintPath>..\Bin64\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="VRage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Ansel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Ansel.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Ansel.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Audio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Audio.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Audio.dll</HintPath>
     </Reference>
     <Reference Include="VRage.EOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.EOS.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.EOS.dll</HintPath>
     </Reference>
     <Reference Include="VRage.EOS.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.EOS.XmlSerializers.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.EOS.XmlSerializers.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Game.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Game.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Game.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Game.XmlSerializers.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Game.XmlSerializers.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Input, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Input.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Input.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Library.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Library.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Math, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Math.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Math.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Math.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Math.XmlSerializers.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Math.XmlSerializers.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Mod.Io, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Mod.Io.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Mod.Io.dll</HintPath>
     </Reference>
     <Reference Include="VRage.NativeWrapper, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.NativeWrapper.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.NativeWrapper.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Network, Version=1.0.53.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Network.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Network.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Platform.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Platform.Windows.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Platform.Windows.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Render, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Render.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Render.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Render11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Render11.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Render11.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Scripting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Scripting.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Scripting.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Steam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.Steam.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.Steam.dll</HintPath>
     </Reference>
     <Reference Include="VRage.UserInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.UserInterface.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.UserInterface.dll</HintPath>
     </Reference>
     <Reference Include="VRage.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Bin64\VRage.XmlSerializers.dll</HintPath>
+      <HintPath>D:\Games\steamapps\common\SpaceEngineers\Bin64\VRage.XmlSerializers.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

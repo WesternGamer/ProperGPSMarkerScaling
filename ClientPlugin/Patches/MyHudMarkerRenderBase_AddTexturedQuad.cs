@@ -19,7 +19,7 @@ namespace ClientPlugin.Patches
     }
 
     [HarmonyPatch("Sandbox.Game.GUI.HudViewers.MyHudMarkerRenderBase", "AddTexturedQuad")]
-    [HarmonyPatch(new Type[] { typeof(string), typeof(Vector2), typeof(Vector2), typeof(Color), typeof(float), typeof(float) })]
+    [HarmonyPatch(new Type[] { typeof(string), typeof(Vector2), typeof(Color), typeof(float), typeof(float), typeof(bool) })]
     internal static class MyHudMarkerRenderBase_AddTexturedQuad_String
     {
         private static bool Prefix(ref float halfWidth, ref float halfHeight)
